@@ -46,6 +46,7 @@ namespace WPFTest
 
         public int Number
         {
+            //yey
             get{return _mainModel.Number;}
             set { _mainModel.Number = value; }
         }
