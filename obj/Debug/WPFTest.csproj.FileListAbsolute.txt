@@ -1,0 +1,17 @@
+c:\users\altran\documents\visual studio 2012\Projects\WPFTest\WPFTest\bin\Debug\WPFTest.exe.config
+c:\users\altran\documents\visual studio 2012\Projects\WPFTest\WPFTest\bin\Debug\WPFTest.exe
+c:\users\altran\documents\visual studio 2012\Projects\WPFTest\WPFTest\bin\Debug\WPFTest.pdb
+c:\users\altran\documents\visual studio 2012\Projects\WPFTest\WPFTest\obj\Debug\WPFTest.csprojResolveAssemblyReference.cache
+c:\users\altran\documents\visual studio 2012\Projects\WPFTest\WPFTest\obj\Debug\MainWindow.baml
+c:\users\altran\documents\visual studio 2012\Projects\WPFTest\WPFTest\obj\Debug\MainWindow.g.cs
+c:\users\altran\documents\visual studio 2012\Projects\WPFTest\WPFTest\obj\Debug\App.g.cs
+c:\users\altran\documents\visual studio 2012\Projects\WPFTest\WPFTest\obj\Debug\WPFTest_MarkupCompile.cache
+c:\users\altran\documents\visual studio 2012\Projects\WPFTest\WPFTest\obj\Debug\WPFTest.g.resources
+c:\users\altran\documents\visual studio 2012\Projects\WPFTest\WPFTest\obj\Debug\WPFTest.Properties.Resources.resources
+c:\users\altran\documents\visual studio 2012\Projects\WPFTest\WPFTest\obj\Debug\WPFTest.csproj.GenerateResource.Cache
+c:\users\altran\documents\visual studio 2012\Projects\WPFTest\WPFTest\obj\Debug\WPFTest.exe
+c:\users\altran\documents\visual studio 2012\Projects\WPFTest\WPFTest\obj\Debug\WPFTest.pdb
+C:\Users\Altran\documents\visual studio 2012\Projects\WPFTest\WPFTest\bin\Debug\WPFTest.exe.manifest
+C:\Users\Altran\documents\visual studio 2012\Projects\WPFTest\WPFTest\bin\Debug\WPFTest.application
+C:\Users\Altran\documents\visual studio 2012\Projects\WPFTest\WPFTest\obj\Debug\WPFTest.exe.manifest
+C:\Users\Altran\documents\visual studio 2012\Projects\WPFTest\WPFTest\obj\Debug\WPFTest.application

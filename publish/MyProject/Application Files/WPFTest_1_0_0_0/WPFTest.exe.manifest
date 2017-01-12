@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WPFTest.exe" version="1.0.0.0" publicKeyToken="fc89e5e321782454" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WPFTest" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WPFTest.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WPFTest.exe" size="9728">
+      <assemblyIdentity name="WPFTest" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>75K+GFO5U+hzoz2ZTbH8DhQF13Vze59/Y9zMF3N/bRo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="WPFTest.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LPT-FA3257\Altran" issuerKeyHash="48d8a0cdad11de043fed3a0589ab168a95dc497d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yeF5b3Scw+F+iV9lw3woL+Ig8+GeL/ZuDguu12nkLdA=</DigestValue></Reference></SignedInfo><SignatureValue>ARV9c+ombg82H5FAhj7yYmSfa4gTT/ZJwXRdU8FV5kEalErQnn+Na//9i3Ey+Ar8N2EdLJGPiFM60249y67RxEo0oh4JKUTyYfyJL10VcY3Ig74V4YILg3ZMVUbH+G7bQIY/iKdpt9kJliuRZN7Ik4iazkofqn+rQCPenxiH4SA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tmsCBH5mWXbVPyba3avAkN2jrLHBgxz8M/cdhOhpgnR5d5zIxk48ulqJMcRMrDDy0pQpTT2NcOP0xPrI5vTRXYXpE1hc40+WApBqu+J0HtwWFYTOwnIbPOzWiPAMYEFnDWF4mwQ1KIT5JTW0srKysApB33ntk8w8IA4pkcyBwFs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d02de469d7ae0b0e6ef62f9ee1f320e22f287cc3655f897ee1c39c746f79e1c9" Description="" Url=""><as:assemblyIdentity name="WPFTest.exe" version="1.0.0.0" publicKeyToken="fc89e5e321782454" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LPT-FA3257\Altran</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6f7UqWK7PI79fLak0J1HA8gK4iMdeHybkUZ408q9TM8=</DigestValue></Reference></SignedInfo><SignatureValue>kGGX2KQBgycIR7FBdqjTIzAW/jyZWH87U1EJeBqmE5MAl11KBKjkv8rli6TRJ+TEMTdCm3bhPi+9FivCs/yWfh8KGLwQFqRQE9Rbd8yerMepVDJhu2c3aFhkPQPO4gElI59mD+9mt0YUjl0BxSMGqzxZO548kE0qqNmuIOZEeb4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tmsCBH5mWXbVPyba3avAkN2jrLHBgxz8M/cdhOhpgnR5d5zIxk48ulqJMcRMrDDy0pQpTT2NcOP0xPrI5vTRXYXpE1hc40+WApBqu+J0HtwWFYTOwnIbPOzWiPAMYEFnDWF4mwQ1KIT5JTW0srKysApB33ntk8w8IA4pkcyBwFs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQSQi8EdsjQIVIpj5HNRvGjTANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIATABQAFQALQBGAEEAMwAyADUANwBcAEEAbAB0AHIAYQBuMB4XDTE3MDExMjE1NDcwMloXDTE4MDExMjIxNDcwMlowLTErMCkGA1UEAx4iAEwAUABUAC0ARgBBADMAMgA1ADcAXABBAGwAdAByAGEAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtmsCBH5mWXbVPyba3avAkN2jrLHBgxz8M/cdhOhpgnR5d5zIxk48ulqJMcRMrDDy0pQpTT2NcOP0xPrI5vTRXYXpE1hc40+WApBqu+J0HtwWFYTOwnIbPOzWiPAMYEFnDWF4mwQ1KIT5JTW0srKysApB33ntk8w8IA4pkcyBwFsCAwEAATANBgkqhkiG9w0BAQsFAAOBgQA3qt/6N3/Uv9ETp8eRCZlFrTHm3S/5YVMa62VzClEhZA4ZMuuynmTOM/gR1/5GVBhDKtf+FdgHnza9Mg6JjPX66O1E7UkuBcwhRNu0Ly6631VYKmVHeBEMdqfg68pWsSScFG7+TgZgMJCQQ4vgpaYrqm6bOU/tHAS+0asCzpkE+g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

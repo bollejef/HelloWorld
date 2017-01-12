@@ -1,0 +1,11 @@
+﻿<Window x:Class="WPFTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{Binding Number}" Height="350" Width="525"
+        DataContext="WPFTest.MainWindow"
+        >
+    <Grid>
+        <Button x:Name="btn" Width="40" Height="20" Content="Jos" Click="btn_Click" />
+        <Button x:Name="btn2" DataContext="WPFTest.MainWindow" Content="{Binding Number}" Click="btn_Click" Margin="132,106,322,183" />
+    </Grid>
+</Window>
